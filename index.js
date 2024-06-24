@@ -8,7 +8,7 @@ for(var i=0;i<numberofDB;i++){
 
         
         sound(buttonInnerHTML);
-        
+        buttonAnimation(buttonInnerHTML);
        
       
     });
@@ -17,7 +17,7 @@ for(var i=0;i<numberofDB;i++){
 document.addEventListener("keypress",function(event){
       
 sound(event.key);
-
+buttonAnimation(event.key);
         
 });
 
@@ -57,4 +57,9 @@ function sound(key){
 
 }
 
+}
+function buttonAnimation(currentkey){
+   var actionbutton= document.querySelector("."+currentkey);
+
+    actionbutton.classList.add("pressed");
 }
