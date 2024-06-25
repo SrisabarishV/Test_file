@@ -61,5 +61,5 @@ function sound(key){
 function buttonAnimation(currentkey){
    var actionbutton= document.querySelector("."+currentkey);
 
-    actionbutton.classList.add("pressed");
+    actionbutton.classList.add("pressed"); 
 }
