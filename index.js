@@ -59,3 +59,8 @@ function sound(key){
 
 }
 
+<<<<<<< HEAD
+=======
+    actionbutton.classList.add("pressed"); 
+}
+>>>>>>> bcfe0aaa83d47e435e29c743e13608957ac3bf50
